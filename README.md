@@ -10,7 +10,7 @@ Easy setup which uses ChromeDriver, it automate chrome instance and mint the nft
 
 You can also **launch multiple instances of the bot to bypass minting limit / wallet**
 
-Please give a star
+Please give a star ⭐
 
 ---
 
