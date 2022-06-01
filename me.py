@@ -33,7 +33,6 @@ def mint(values, isWindows):
             By.XPATH, "//button[@class='sc-bdfBQB bzlPNH']").click()
         WebDriverWait(driver, 60).until(EC.presence_of_element_located(
             (By.XPATH, "//input[@placeholder='Password']")))
-        time.sleep(300)
         password1 = driver.find_element(
             By.XPATH, "//input[@placeholder='Password']").send_keys(values[2])
         password2 = driver.find_element(
@@ -44,7 +43,6 @@ def mint(values, isWindows):
             By.XPATH, "//button[@type='submit']").click()
         WebDriverWait(driver, 60).until(EC.presence_of_element_located(
             (By.XPATH, "//button[contains(text(),'Continue')]")))
-        time.sleep(300)
         continue_ = driver.find_element(
             By.XPATH, "//button[contains(text(),'Continue')]")
         driver.execute_script("arguments[0].click();", continue_)
@@ -53,7 +51,6 @@ def mint(values, isWindows):
         finish = driver.find_element(
             By.XPATH, "//button[contains(text(),'Finish')]")
         driver.execute_script("arguments[0].click();", finish)
-        time.sleep(300)
         print("Status - Finished Initializing wallet")
         driver.switch_to.window(driver.window_handles[0])
 
