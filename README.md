@@ -8,7 +8,7 @@ This bot can **mint all Magic Eden NFT's projects**. It does not guarantee a suc
 
 Easy setup which uses ChromeDriver, it automate chrome instance and mint the nft you are looking for.
 
-You can also **launch multiple instances of the bot to bypass minting limit / wallet**
+You can also **launch multiple instances of the bot to bypass minting limit / wallet**.
 
 Please give a star ⭐
 
